@@ -1,0 +1,25 @@
+<div id="compose">
+  <div class="widget">
+    <form id="composeForm">
+      <div class="buttons">
+        <button id="cancel">CANCEL</button>
+        <button id="send">SEND</button>
+      </div>
+      <div class="row">
+        <label>From: </label>
+        <img src="https://s.gravatar.com/avatar/{{hash}}?s=48" />
+        <span>{{name}}</span>
+      </div>
+      <div class="row">
+        <label>To: </label>
+        <img id="toAvatar" class="hidden" src="/images/stormtrooper.jpg" />
+        <input id="toInput" type="email" name="to" required="required" />
+      </div>
+      <div class="row">
+        <label>Subject: </label>
+        <input type="text" name="subject" required="required" />
+      </div>
+      <textarea name="body" required="required"></textarea>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+#mail-list
+  .mail
+    border-bottom           1px solid #F1F4F5
+    padding                 15px
+    cursor                  default
+    overflow                hidden
+
+    &:hover
+      background            #FBFBFB
+
+    &.selected
+      background            #F8F8F8
+
+  img
+    // styleAvatar()
+    width                   40px
+    height                  40px
+    border-radius           40px
+
+  .avatar
+    float                   left
+    margin                  14px 20px 0 0
+
+  .details
+    float                   left
+    width                   300px
+
+    .to
+      font-size             12px
+      color                 #5C666D
+      margin-bottom         5px
+
+    .subject
+      font-size             16px
+      color                 #5C666D
+      margin-bottom         7px
+      width                 95%
+      overflow              hidden
+      white-space           nowrap
+      height                19px
+      text-overflow         ellipsis
+
+    .body
+      font-size             13px
+      color                 #727988
+      line-height           15px
+
+    .date
+      font-size             12px
+      color                 #5C666D
+      opacity               .5
+      position              absolute
+      right                 0
+      top                   0
